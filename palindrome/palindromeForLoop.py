@@ -4,10 +4,9 @@ def palindrome(s):
     for j in range(len(s)):
         if s[j].isalpha():
             m = m + s[j].lower()
-            print(m)
+            #print(m)
 
     x = len(m) - 1
-    gadag
     for i in range(int(len(m)/2)):
         if m[x - i] != m[i]:
             return False
