@@ -5,6 +5,7 @@ def palindrome(s):
         if s[j].isalpha():
             m = m + s[j].lower()
             print(m)
+fskfdshfk
 
     x = len(m) - 1
     gadag
